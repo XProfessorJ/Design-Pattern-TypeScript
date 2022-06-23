@@ -1,0 +1,28 @@
+<p>Accessibility Test</p>
+
+no role, aria-label = "Hongkong dollars"
+<div>
+  <span aria-label="Hongkong dollars">HKD</span>
+  <input>
+</div>
+
+role as text, aria-label = "Hongkong dollars"
+<div>
+  <span tabindex="0" role="text" aria-label="Hongkong dollars">HKD</span>
+  <input>
+</div>
+
+role as article, aria-label = "Hongkong dollars"
+<div>
+  <span role="article" tabindex="0" aria-label="Hongkong dollars">HKD</span>
+  <input>
+</div>
+
+<br>
+<p>without div ourside span and input</p>
+<span role="article" tabindex="0" aria-label="Hongkong dollars">HKD</span>
+<input>
+<br>
+
+<button [disabled]="true"> button 1 </button>
+<button [disabled]="false"> button 3</button>
