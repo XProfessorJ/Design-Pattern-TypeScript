@@ -7,6 +7,12 @@ import { AccessibilityTestComponent } from './accessibility-test/accessibility-t
 import { ObservableComponent } from './design-pattern/observable/observable.component';
 import { PubSubComponent } from './design-pattern/pub-sub/pub-sub.component';
 import { DecoratorPatternComponent } from './design-pattern/decorator-pattern/decorator-pattern.component';
+import { SigletonComponent } from './design-pattern/sigleton/sigleton.component';
+import { CommandComponent } from './design-pattern/command/command.component';
+import { AdapterComponent } from './design-pattern/adapter/adapter.component';
+import { TemplateComponent } from './design-pattern/template/template.component';
+import { IteratorComponent } from './design-pattern/iterator/iterator.component';
+import { StateComponent } from './design-pattern/state/state.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +20,13 @@ import { DecoratorPatternComponent } from './design-pattern/decorator-pattern/de
     AccessibilityTestComponent,
     ObservableComponent,
     PubSubComponent,
-    DecoratorPatternComponent
+    DecoratorPatternComponent,
+    SigletonComponent,
+    CommandComponent,
+    AdapterComponent,
+    TemplateComponent,
+    IteratorComponent,
+    StateComponent 
   ],
   imports: [
     BrowserModule,
