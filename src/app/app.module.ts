@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { AccessibilityTestComponent } from './accessibility-test/accessibility-test.component';
 import { ObservableComponent } from './design-pattern/observable/observable.component';
 import { PubSubComponent } from './design-pattern/pub-sub/pub-sub.component';
+import { DecoratorPatternComponent } from './design-pattern/decorator-pattern/decorator-pattern.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AccessibilityTestComponent,
     ObservableComponent,
-    PubSubComponent
+    PubSubComponent,
+    DecoratorPatternComponent
   ],
   imports: [
     BrowserModule,
