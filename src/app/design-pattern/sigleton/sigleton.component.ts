@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Tea } from './singleton.modle';
 
 @Component({
   selector: 'app-sigleton',
@@ -10,6 +11,7 @@ export class SigletonComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    let tea = Tea.getInstance();
   }
 
 }

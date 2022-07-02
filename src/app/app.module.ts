@@ -13,6 +13,7 @@ import { AdapterComponent } from './design-pattern/adapter/adapter.component';
 import { TemplateComponent } from './design-pattern/template/template.component';
 import { IteratorComponent } from './design-pattern/iterator/iterator.component';
 import { StateComponent } from './design-pattern/state/state.component';
+import { DecoratorComponent } from './design-pattern/decorator/decorator.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { StateComponent } from './design-pattern/state/state.component';
     AdapterComponent,
     TemplateComponent,
     IteratorComponent,
-    StateComponent 
+    StateComponent,
+    DecoratorComponent 
   ],
   imports: [
     BrowserModule,
